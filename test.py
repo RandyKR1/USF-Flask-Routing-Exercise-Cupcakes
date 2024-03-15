@@ -67,13 +67,11 @@ class CupcakeTestCase(TestCase):
             data = resp.json
             
             self.assertEqual(data, {
-            "cupcake": {
                     "id": self.cupcake.id,
                     "flavor": "TestFlavor2",
                     "size": "TestSize2",
                     "rating": 10,
                     "image": "http://test.com/cupcake2.jpg"
-                }
             })
 
             self.assertEqual(Cupcake.query.count(), 1)
