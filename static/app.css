@@ -1,0 +1,18 @@
+.img-cup{
+    max-width: 200px;
+    max-height: 400px;
+}
+
+.cup-cont{
+    font-style: italic;
+    margin: 25px;
+    margin-top: 40px;
+}
+
+button{
+    border-radius: 15px;
+    padding: 5px;
+    background-color: rgb(223, 76, 76);
+    color: azure;
+    border: none;
+}
